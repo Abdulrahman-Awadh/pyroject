@@ -1,23 +1,27 @@
 # Project Title
 Simple try of FastAPI and python.
+<br/>
+<br/>
 
 
 
 ## Description
 integrating with snapchat to collect user data.
-
+<br/>
+<br/>
 
 
 ## Goal
 to build application with zero knowldge about python & FastAPI
-
+<br/>
+<br/>
 
 
 ## Running the APP:
-
 Requirement:
 * docker
 * python
+<br/>
 
 
 
@@ -25,10 +29,14 @@ Requirement:
 ````
 pip install virtualenv
 ````
+<br/>
+
 #### Create a virtual environment
 ````
 virtualenv venv
 ````
+<br/>
+
 #### Activate the virtual environment
 On Windows
 ````
@@ -38,26 +46,26 @@ venv\Scripts\activate
 ````
 source venv/bin/activate
 ````
+<br/>
 
 #### Installing packages: 
 ````
 pip install -r requirements.txt
 ````
+<br/>
 
-
-### Executing program:
-
-#### How to run the program
-build the docker image
+#### build the docker image
 ```
 docker build -t pyroject .
 ```
+<br/>
 
-* run the docker image
+#### run the docker image
 ```
 docker run -p 8000:80 pyroject
 ```
-
+<br/>
+<br/>
 
 
 ## File structure goal: 
