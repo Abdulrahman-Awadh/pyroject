@@ -1,4 +1,4 @@
-# Project Title
+# PYROJECT
 Simple try of FastAPI and python.
 <br/>
 <br/>
@@ -17,7 +17,7 @@ to build application with zero knowldge about python & FastAPI
 <br/>
 
 
-## Running the APP:
+## Running the APP
 Requirement:
 * docker
 * python
