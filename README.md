@@ -1,10 +1,42 @@
-How to run the project:
+# Project Title
+Simple try of FastAPI and python.
 
+
+
+## Description
+integrating with snapchat to collect user data.
+
+
+
+## Goal
+to build application with zero knowldge about python & FastAPI
+
+
+
+## Installing:
+
+### Requirement:
+just install docker for running the app and python to develope
+
+
+
+### Executing program:
+
+#### How to run the program
+build the docker image
+```
 docker build -t pyroject .
+```
+
+* run the docker image
+```
 docker run -p 8000:80 pyroject
+```
 
 
-File structure goal: 
+
+## File structure goal: 
+```
 /pyroject
 |-- /app
 |   |-- __init__.py
@@ -52,3 +84,4 @@ File structure goal:
 |-- Dockerfile          # Dockerfile for building the FastAPI application
 |-- requirements.txt    # Project dependencies
 |-- README.md           # Project README file
+```
