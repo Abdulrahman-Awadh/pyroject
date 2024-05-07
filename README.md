@@ -13,10 +13,12 @@ to build application with zero knowldge about python & FastAPI
 
 
 
-## Installing:
+## Running the APP:
 
-### Requirement:
-just install docker for running the app and python to develope
+Requirement:
+* docker
+* python
+
 
 
 #### Install virtualenv if it is not installed
